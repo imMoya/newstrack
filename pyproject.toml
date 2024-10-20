@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "newstrack"
+version = "0.1.0"
+description = ""
+authors = ["Ignacio Moya <imoyared@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.31.0"
+python-dotenv = "^1.0.0"
+pandas = "^2.0.3"
+matplotlib = "^3.7.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
